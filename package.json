@@ -1,0 +1,12 @@
+{
+  "name": "assesspro-system",
+  "version": "1.0.0",
+  "description": "AssessPro – Online Assessment & Webcam Monitoring System",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "author": "AssessPro Team",
+  "license": "ISC"
+}
